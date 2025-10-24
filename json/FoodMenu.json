@@ -1,0 +1,62 @@
+{
+    "Vegitarian": {
+        "Paneer Butter Masala": 250,
+        "Dal Makhani": 200,
+        "Aloo Gobi": 180,
+        "Vegitable Biryani": 220,
+        "Chole Bhature": 150,
+        "Masala Dosa": 130,
+        "Idli Sambhar": 120,
+        "Chinese Vegitable Noodles": 210,
+        "Vegitable Fried Rice": 200,
+        "Mixed Vegitable Soup": 160
+    },
+    "Non_Vegitarian": {
+        "Chicken Curry": 300,
+        "Mutton Biryani": 350,
+        "Fish Fry": 280,
+        "Prawn Masala": 320,
+        "Egg Curry": 200,
+        "Chicken Tikka": 400,
+        "Butter Chicken": 450,
+        "Chicken Biryani": 330,
+        "Mutton Korma": 370,
+        "Fish Curry": 290
+    },
+    "Fast_Food": {
+        "Burger": 120,
+        "Pizza": 250,
+        "French Fries": 70,
+        "Hot Dog": 100,
+        "Sandwich": 90,
+        "Taco": 80,
+        "Nachos": 110,
+        "Fried Chicken": 150,
+        "Onion Rings": 60,
+        "Mozzarella Sticks": 130
+    },
+    "Sweet_Shop": {
+        "Gulab Jamun": 80,
+        "Rasgulla": 70,
+        "Jalebi": 90,
+        "Kheer": 180,
+        "Ladoo": 60,
+        "Barfi": 100,
+        "Peda": 110,
+        "Sooji Halwa": 140,
+        "Rasmalai": 150,
+        "Kulfi": 120
+    },
+    "Ice_Cream": {
+        "Vanilla": 100,
+        "Chocolate": 120,
+        "Strawberry": 110,
+        "Mango": 130,
+        "Butter Scotch": 140,
+        "Pista": 150,
+        "Coffee": 160,
+        "Cookies and Cream": 170,
+        "Mint Chocolate Chip": 180,
+        "Rocky Road": 190
+    }
+}
