@@ -1,42 +1,41 @@
 #    Operator2.py
 
-from Operator3 import DisplayFoodMenu
-
-
 def DisplayMenuTypes():
+
+    from Operator3 import DisplayFoodMenu
     print("\n PLease Select Menu Type :")
-    print("<<<============================================>>>")
+    print("\n<<<============================================>>>")
     
     try:
         for index in range(len(MenuTypes)):
-            print(f"{index + 1}. {MenuTypes[index]}")
+            print(f"\n{index + 1}. {MenuTypes[index]}")
             
-        MenuChoice = int(input("Enter your Menu Type :"))
-        print("<<<============================================>>>")
+        MenuChoice = int(input("\nEnter your Menu Type :"))
+        print("\n<<<============================================>>>")
 
         if  1 <= MenuChoice <= len(MenuTypes):
-             print(f"You have selected {MenuTypes[MenuChoice -1]}")
-             print("Menu Loading...")
+             print(f"\nYou have selected {MenuTypes[MenuChoice -1]}")
+             print("\nMenu Loading...")
              DisplayFoodMenu(MenuChoice)
 
         else:
-            print("You Entered Invalid Choice. Want to Exit Or Continue:\n1. Continue\n2. Exit")
-            ExitOrContinue_Choice = int(input("Enter Your Choice :"))
+            print("\nYou Entered Invalid Choice. Want to Exit Or Continue:\n1. Continue\n2. Exit")
+            ExitOrContinue_Choice = int(input("\nEnter Your Choice :"))
 
             if ExitOrContinue_Choice == 1:
-                print("Continuing to Menu...")
+                print("\nContinuing to Menu...")
                 DisplayMenuTypes()
 
             else:
-                print("Exiting...Thank You For Visiting...")
-                print("<<< Hope To See you Again At Foodie's Paradise >>>")
+                print("\nExiting...Thank You For Visiting...")
+                print("\n<<< Hope To See you Again At Foodie's Paradise >>>")
 
     except ValueError:
-        print("Invalid Input. Please enter a number corresponding to the menu types.")
+        print("\nInvalid Input. Please enter a number corresponding to the menu types.")
         DisplayMenuTypes()
 
     except Exception as e:
-        print(f"An error orrured: {e}")
+        print(f"\nAn error orrured: {e}")
 
 
 MenuTypes = ["Vegitarian", "Non-Vegitarian","Fast Food", "Sweet Shop", "Ice Cream"]
