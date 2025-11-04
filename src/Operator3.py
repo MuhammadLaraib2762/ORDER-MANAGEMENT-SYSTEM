@@ -40,7 +40,7 @@ def DisplayFoodMenu(MenuChoice):
             print(f"{i}. {item} - ₹{items[item]}")
 
         print("\n0. Finalize Order")
-        print("9. Change Menu Type")
+        print("11. Change Menu Type")
 
         try:
             choice = int(input("\nSelect Item Number: "))
@@ -48,7 +48,7 @@ def DisplayFoodMenu(MenuChoice):
             if choice == 0:
                 finalizeOrder()
                 break
-            elif choice == 9:
+            elif choice == 11:
                 DisplayMenuTypes()
                 break
             elif 1 <= choice <= len(item_names):
